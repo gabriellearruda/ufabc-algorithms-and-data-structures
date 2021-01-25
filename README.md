@@ -8,5 +8,5 @@ Repository with activities in C of the discipline Algorithms and Data Structures
 - [Palavra mais longa da frase](https://github.com/gabriellearruda/ufabc-algorithms-and-data-structures-I/blob/main/atv/atv4.c)
 - [Inverte sequência de números](https://github.com/gabriellearruda/ufabc-algorithms-and-data-structures-I/blob/main/atv/atv5.c)
 - [Soma Abaixo da Diagonal](https://github.com/gabriellearruda/ufabc-algorithms-and-data-structures-I/blob/main/atv/atv6.c)
-- [Mínimo e máximo]()
-- [Palíndromo]()
+- Mínimo e máximo
+- Palíndromo
