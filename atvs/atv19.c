@@ -30,3 +30,28 @@ void insereArvore(Arvore** t, int num)
     }
   }
 }
+
+int maior(int a, int b){
+    if(a > b)
+        return a;
+    else
+        return b;
+}
+
+int altura(Arvore *t){
+   if((t == NULL) || (t->esq == NULL && t->dir == NULL))
+       return 0;
+   else
+       return 1 + maior(altura(t->esq), altura(t->dir));
+}
+
+int main(){
+  Arvore* t = createArvore(); 
+  int n;
+  while (scanf("%d", &n) != EOF){
+    insereArvore(&t, n);
+  }
+  printf("%d", altura(t));
+  free(t);
+  return 0;
+}
