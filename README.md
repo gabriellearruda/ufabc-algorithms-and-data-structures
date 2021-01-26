@@ -21,3 +21,8 @@ Repository with activities in C of the discipline Algorithms and Data Structures
 - [Chaves, colchetes e parênteses](https://github.com/gabriellearruda/ufabc-algorithms-and-data-structures-I/blob/main/atvs/atv17.c)
 - [Altura mínima](https://github.com/gabriellearruda/ufabc-algorithms-and-data-structures-I/blob/main/atvs/atv18.c)
 - [Calculando Alturas](https://github.com/gabriellearruda/ufabc-algorithms-and-data-structures-I/blob/main/atvs/atv19.c)
+- [Ordenação Parcial](https://github.com/gabriellearruda/ufabc-algorithms-and-data-structures-I/blob/main/atvs/atv20.c)
+- [Os menores correm mais rápido!](https://github.com/gabriellearruda/ufabc-algorithms-and-data-structures-I/blob/main/atvs/atv21.c)
+- [Crescente ou Decrescente? Talvez nenhum deles!](https://github.com/gabriellearruda/ufabc-algorithms-and-data-structures-I/blob/main/atvs/atv22.c)
+- [Selection Sort](https://github.com/gabriellearruda/ufabc-algorithms-and-data-structures-I/blob/main/atvs/atv23.c)
+- [Insertion Sort](https://github.com/gabriellearruda/ufabc-algorithms-and-data-structures-I/blob/main/atvs/atv24.c)
