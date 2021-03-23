@@ -3,16 +3,20 @@
 ## O que é?
 Este é um repositório com atividade acerca de Funções de espalhamento da disciplina de Algoritimo e Estrutura II da UFABC realizada no QS-2021.1.
 
-Funções de espalhamento (hashing) sâo funções que transformam cada chave em um índice da tabela de hash. Uma tabela de dispersão ou tabela de hash (hash table) é um vetor cada uma de cujas posições armazena zero, uma, ou mais chaves.[1](https://www.ime.usp.br/~pf/estruturas-de-dados/aulas/st-hash.html)
+Funções de espalhamento (hashing) sâo funções que transformam cada chave em um índice da tabela de hash. Uma tabela de dispersão ou tabela de hash (hash table) é um vetor cada uma de cujas posições armazena zero, uma, ou mais chaves.[[1]](https://www.ime.usp.br/~pf/estruturas-de-dados/aulas/st-hash.html)
 
 ### Função de espalhamento pelo método da divisão
 Método onde a chave k é dividida pela dimensão da tabela m.
+<br>
 <img src="https://render.githubusercontent.com/render/math?math=h(k)=k mod m">
 
 
 ### Função de espalhamento pelo método da multiplicação
 Método onde se utiliza uma constante A (0<A<1), sendo h(k) calculado como:
+<br>
 <img src="https://render.githubusercontent.com/render/math?math=h(k)=[m(kA mod 1)]">
+
+
 
 
 
