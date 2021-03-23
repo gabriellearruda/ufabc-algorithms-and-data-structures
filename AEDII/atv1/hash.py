@@ -14,7 +14,14 @@ def divisao(key, m):
    hashvalue: int
       Resultado de h(k) pelo método da divisão dado os parametros inseridos.
    """
-   return  key % m
+   try:
+      if not(isinstance(key, int)) or not(isinstance(m, int)):
+         return print("Os parametros precisam ser inteiros, tente novamente.")
+      if m<=0:
+         return print("O parametro 'm' precisa ser um inteiro positivo, tente novamente.")
+      return key % m
+   except:
+      return print("Algo deu errado. Verifique seus parametros.")
 
 def multiplicacao(key, m, A):
    """
@@ -34,4 +41,13 @@ def multiplicacao(key, m, A):
    hashvalue: int
       Resultado de h(k) pelo método da multiplicacão dado os parametros inseridos.
    """
-   return  (m * ((key*A) % 1))
+   try:
+      if not(isinstance(key, int)) or not(isinstance(m, int)):
+         return print("Os parametros 'key' e 'm' precisam ser inteiros, tente novamente.")
+      if not(0<A<1):
+         return print("O parametro 'A' precisa ser um número flutuante entre 0 e 1.")
+      if m<=0:
+         return print("O parametro 'm' precisa ser um inteiro positivo, tente novamente.")
+      return  (m * ((key*A) % 1))
+   except:
+      return print("Algo deu errado. Verifique seus parametros.")
