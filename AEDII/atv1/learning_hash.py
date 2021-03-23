@@ -47,6 +47,5 @@ for i in range(0, 101):
 # df_colisoes_mult_061 = df.groupby('Valor do Hash').agg({'Contagens':'count'})
 # df_colisoes_mult_061.to_csv('df_colisoes_mult_061.csv')
 # 198.87500000186265
-
 import pdb; pdb.set_trace()
 

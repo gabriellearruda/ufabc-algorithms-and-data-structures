@@ -40,3 +40,8 @@ hash.multiplicacao(key, m, A)
 
 ### learning_hash.py
 O arquivo learning_hash.py corresponde ao código criado para responder as perguntas feitas pelo professor, usando a biblioteca hash também desenvolvida por mim, e cujo os resultados posteriormente foram incluidas em um relatório que pode ser acessado [AQUI](https://docs.google.com/document/d/100QqMHkSji9Jkb8Nku1qLeqLMLWXNBz7aJyOSlYrQVk/edit?usp=sharing).
+
+O código está em python e para roda-lo basta:
+```
+python learning_hash.py
+```
